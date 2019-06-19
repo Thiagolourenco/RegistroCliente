@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+    font: 14px Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased !important; 
+
+}
+
+.conteudo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.inputSearch {
+    margin-right: 230px;
+    width: 350px;
+    
+}
+
+form button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 120px;
+    border: 0;
+    background: #7159c1;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.table-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.table {
+    width: 800px;   
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.fa-trash {
+    color: red;
+    font-size: 80px;
+}
+
+.fa-edit {
+    color: blue;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.select {
+    margin: 10px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.btnCadastrar {
+    margin-left: 340px;
+    margin-top: 30px;
+}
